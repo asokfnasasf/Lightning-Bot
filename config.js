@@ -8,7 +8,7 @@ import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js'
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰  
 global.owner = [
   ['5493491456806', 'Creador', true],
-  ['', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 2 💖🐈', true],
+  ['48732087124', '', true],
   ['', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 3 💖🐈', true],
   ['', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 4 💖🐈', true],
   ['', '𝘿𝙄𝙀𝙂𝙊-𝙊𝙁𝘾 | 𝙀𝙍𝙍𝙊𝙍𝙀𝙎 💖🐈', true], 
@@ -21,15 +21,15 @@ global.prems = ['5493491456806'],
    
   
 //⊱ ━━━━━.⋅ IDIOMA : LENGUAJE ⋅.━━━━ ⊰ 
-//Agrega el Idioma que quieres que tenga GataBot-MD
-//Add the language you want GataBot-MD to have
+//Agrega el Idioma que quieres que tenga Lightning-Bot
+//Add the language you want Lightning-Bot to have
 //  es = Español         id = Bahasa Indonesia
 //  en = English         pt = Português 
 //  ar = عرب  
 
-global.lenguajeGB = es  //Idioma de GataBot, Ejemplo: es | en | pt...
+global.lenguajeGB = es  //Idioma de LightningBot, Ejemplo: es | en | pt...
 
-//━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+//━━━━━━━━━━━━━━━━━━━━ 
 
 
 global.APIs = { // API Prefix. 
@@ -97,15 +97,15 @@ global.Key360 = ['964f-0c75-7afc'] //keys ephoto360
 global.keysZens = ['fiktod', 'c2459db922', 'BF39D349845E', '675e34de8a', '37CC845916', '0b917b905e6f', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 
-//━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+//━━━━━━━━━━━━━━━━━━━━ 
 
 
 //⊱ ━━━━━.⋅ Sticker WM ⋅.━━━━ ⊰
 
-global.packname = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 🐈'
-global.author = '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
+global.packname = '𝙇𝙞𝙜𝙝𝙩𝙣𝙞𝙣𝙜-𝘽𝙤𝙩 ⚡'
+global.author = '𝙂𝙖𝙗𝙧𝙞𝙚𝙡 🔥'
 
-//━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+//━━━━━━━━━━━━━━━━━━━━ 
 
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
@@ -113,39 +113,39 @@ global.author = '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
 global.vs = '1.4.0 (Navidad) 🎄'
 global.version = vs
 
-global.gt = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿'
+global.gt = '𝙇𝙞𝙜𝙝𝙩𝙣𝙞𝙣𝙜-𝘽𝙤𝙩 ⚡'
 global.gatabot = gt
 
-global.yt = 'https://youtube.com/@gatadios'
+global.yt = 'NO TENGO'
 global.youtube = yt
 
-global.ig = 'https://www.instagram.com/gata_dios'
+global.ig = 'https://www.instagram.com/gabrielacosta_15'
 global.gatadiosig = ig
 
-global.md = 'https://github.com/GataNina-Li/GataBot-MD'
+global.md = 'https://github.com/asokfnasasf/Lightning-Bot'
 global.gatabot = md
 
-global.nna = 'https://chat.whatsapp.com/KS53R4vQuSE6unEifyFUho' //UPDATE GATABOT
-global.nna2 = 'KS53R4vQuSE6unEifyFUho'
+global.nna = '' //
+global.nna2 = ''
 
-global.nn = 'https://chat.whatsapp.com/EAvTFU2ZUIM6qDnfwoJvCt' //Grupo 1
+global.nn = '' //Grupo 1
 
-global.nnn = 'https://chat.whatsapp.com/Eq7BpY5IANBEg6GYD3smBK' //Grupo 2
+global.nnn = '' //Grupo 2
 
-global.nnnt = 'https://chat.whatsapp.com/HbDNl61uhGN48LNmGiSbeu' //Grupo 3
+global.nnnt = '' //Grupo 3
 
-global.nnntt = 'https://chat.whatsapp.com/G1hOG5Zh4VY8gIsZXSwBLI' //Grupo 4
+global.nnntt = '' //Grupo 4
 
-global.nnnttt = 'https://chat.whatsapp.com/CxHgfqRXAJHDcc5qX5u1Zm' //Grupo 5
+global.nnnttt = '' //Grupo 5
 
-global.nnnttt2 = 'https://chat.whatsapp.com/H6128TPCb7kBses5XhbBrf' //Grupo 6 COL
+global.nnnttt2 = '' //Grupo 6 COL
 
-global.nnnttt3 = 'https://chat.whatsapp.com/ItsLdBgl0b5Lhb9vU4dC0c' //Grupo 7 COL
+global.nnnttt3 = '' //Grupo 7 COL
 
-global.paypal = 'https://paypal.me/OficialGD'
+global.paypal = 'NO TENGO, SOY HUMILDE'
 global.donar = paypal
 
-global.asistencia = 'Wa.me/18059196237' //Dudas? escríbeme...
+global.asistencia = 'Wa.me/48732087124' //Dudas? escríbeme...
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -179,13 +179,13 @@ global.exito = eg
 
 //⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
 
-global.wm = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 : 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
-global.igfg = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿'
+global.wm = '𝙇𝙞𝙜𝙝𝙩𝙣𝙞𝙣𝙜-𝘽𝙤𝙩 : 𝙂𝙖𝙗𝙧𝙞𝙚𝙡 🔥'
+global.igfg = '𝙇𝙞𝙜𝙝𝙩𝙣𝙞𝙣𝙜-𝘽𝙤𝙩 ⚡'
 global.wait = '*⌛ _Cargando | Charging..._ ▬▭▭▭▭▭▭*'
 global.waitt = '*⌛ _Cargando | Charging..._ ▬▬▭▭▭*'
 global.waittt = '*⌛ _Cargando | Charging..._ ▬▬▬▬▭▭*'
 global.waitttt = '*⌛ _Cargando | Charging..._ ▬▬▬▬▬▬▭*'
-global.nomorown = '593993684821'
+global.nomorown = '48732087124'
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf']
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
@@ -271,8 +271,7 @@ global.fgif = {
                               }
                              }
 
-//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
-
+//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 global.multiplier = 60 // Cuanto más alto, más difícil subir de nivel | The higher, The harder levelup 
 
@@ -397,7 +396,7 @@ global.rpgg = { //Solo emojis
       ayam: '🐓', babi: '🐖', Jabali: '🐗', bull: '🐃', buaya: '🐊', cat: '🐈',      
       centaur: '🐐', chicken: '🐓', cow: '🐄', dog: '🐕', dragon: '🐉', elephant: '🐘',
       fox: '🦊', giraffe: '🦒', griffin: '🦅', //Mascota : Griffin',
-      horse: '🐎', kambing: '🐐', kerbau: '🐃', lion: '🦁', money: '🐱', monyet: '🐒', panda: '🐼',
+      horse: '🐎', kambing: '🐐', kerbau: '🐃', lion: '🦁', money: '⚡', monyet: '🐒', panda: '🐼',
       snake: '🐍', phonix: '🕊️', rhinoceros: '🦏',
       wolf: '🐺', tiger: '🐅', cumi: '🦑', udang: '🦐', ikan: '🐟',
       
@@ -454,7 +453,7 @@ global.rpgshopp = { //Tienda
   emoticon(string) {
     string = string.toLowerCase()
     let emotttt = {
-      exp: '⚡', limit: '💎', diamond: '💎+', joincount: '🪙',
+      exp: '🔅', limit: '💎', diamond: '💎+', joincount: '🪙',
       emerald: '💚', berlian: '♦️', kyubi: '🌀', gold: '👑',
       money: '🐱', tiketcoin: '🎫', stamina: '✨',
             
