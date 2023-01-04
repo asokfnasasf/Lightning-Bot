@@ -4,11 +4,11 @@ const roles = {
       '*NOVATO(A) III* 💩': 2,
        '*NOVATO(A) II* 💩': 3,
         '*NOVATO(A) I* 💩': 4,
-    '*APRENDIS V* 💠': 5,
-     '*APRENDIS IV* 💠': 6,
-      '*APRENDIS III* 💠': 7,
-       '*APRENDIS II* 💠': 8,
-       '*APRENDIS I* 💠': 9,
+    '*APRENDIS V* 🤓': 5,
+     '*APRENDIS IV* 🤓': 6,
+      '*APRENDIS III* 🤓': 7,
+       '*APRENDIS II* 🤓': 8,
+       '*APRENDIS I* 🤓': 9,
     '*EXPLORADOR(A) V* 🪓': 10,
      '*EXPLORADOR(A) IV* 🪓': 11,
       '*EXPLORADOR(A) III* 🪓': 12,
@@ -97,9 +97,9 @@ handler.before = function (m, text) {
     let role = (user.level <= 3) ? '*NOVATO(A) III* 💩'
         : ((user.level >= 3) && (user.level <= 6)) ? '*NOVATO(A) II* 💩'
             : ((user.level >= 6) && (user.level <= 9)) ? '*NOVATO(A) I* 💩'
-                : ((user.level >= 9) && (user.level <= 12)) ? '*APRENDIS III* 💠'
-                    : ((user.level >= 12) && (user.level <= 15)) ? '*APRENDIS II* 💠'
-                        : ((user.level >= 15) && (user.level <= 18)) ? '*APRENDIS I* 💠'
+                : ((user.level >= 9) && (user.level <= 12)) ? '*APRENDIS III* 🤓'
+                    : ((user.level >= 12) && (user.level <= 15)) ? '*APRENDIS II* 🤓'
+                        : ((user.level >= 15) && (user.level <= 18)) ? '*APRENDIS I* 🤓'
                             : ((user.level >= 18) && (user.level <= 21)) ? '*EXPLORADOR(A) III* 🪓'
                                 : ((user.level >= 21) && (user.level <= 24)) ? '*EXPLORADOR(A) II* 🪓'
                                     : ((user.level >= 24) && (user.level <= 27)) ? '*EXPLORADOR(A) I* 🪓'
