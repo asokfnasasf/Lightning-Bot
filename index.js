@@ -20,7 +20,7 @@ gradient: ['blue', 'white']})
 say(`Por Gabriel`, {
 font: 'console',
 align: 'center',
-gradient: ['blue', 'white']})
+gradient: ['white', 'blue']})
 
 var isRunning = false
 /**
