@@ -118,11 +118,11 @@ ${role}
 *SUPER PRO IV* 🎩
 *SUPER PRO V* 🎩
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*PRO EN GATABOT I* 😼
-*PRO EN GATABOT II* 😼
-*PRO EN GATABOT III* 😼
-*PRO EN GATABOT IV* 😼
-*PRO EN GATABOT V* 😼
+*PRO EN LIGHTNINGBOT I* ⚡
+*PRO EN LIGHTNINGBOT II* ⚡
+*PRO EN LIGHTNINGBOT III* ⚡
+*PRO EN LIGHTNINGBOT IV* ⚡
+*PRO EN LIGHTNINGBOT V* ⚡
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 *DIAMANTE I* 💎
 *DIAMANTE II* 💎
@@ -160,17 +160,17 @@ ${role}
 *EXPLORADOR(A) IV* 🪓
 *EXPLORADOR(A) V* 🪓
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*APRENDIS I* 🪚
-*APRENDIS II* 🪚
-*APRENDIS III* 🪚
-*APRENDIS IV* 🪚
-*APRENDIS V* 🪚
+*APRENDIS I* 💠
+*APRENDIS II* 💠
+*APRENDIS III* 💠
+*APRENDIS IV* 💠
+*APRENDIS V* 💠
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*NOVATO(A) I* 🪤
-*NOVATO(A) II* 🪤
-*NOVATO(A) III* 🪤
-*NOVATO(A) IV* 🪤
-*NOVATO(A) V* 🪤
+*NOVATO(A) I* 💩
+*NOVATO(A) II* 💩
+*NOVATO(A) III* 💩
+*NOVATO(A) IV* 💩
+*NOVATO(A) V* 💩
 ╰━━━━━━━━━━━━━━━━━━━⬣`.trim()
 conn.sendHydrated(m.chat, menu, `𝙍𝘼𝙉𝙂𝙊𝙎 | ${wm}`, pp, 'https://github.com/GataNina-Li/GataBot-MD', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
 ['𝙈𝙚𝙣𝙪́ 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙤 | 𝙁𝙪𝙡𝙡 𝙈𝙚𝙣𝙪 💫', '.allmenu'],
