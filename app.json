@@ -2,7 +2,7 @@
   "name": "Lightning-Bot", 
   "description": "Super Bot WhatsApp",
   "repository": "https://github.com/a/asokfnasasf/Lightning-Bot",
-  "logo": "https://i.imgur.com/8fK4h6F.jpg",
+  "logo": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.FueNp6vVp8iCGxXY_aEYkwHaEK%26pid%3DApi&f=1&ipt=3fc2abc760437e682d5a2578cd005a22a9375a732931d9d89a953880fb4f0e9b&ipo=images",
   "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
   "buildpacks": [
     {
