@@ -12,6 +12,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /que mirás|bobo|Bobo|anda|que mirás bobo/
+handler.customPrefix = /que mirás|bobo|Bobo|Que miras|Que mirás|que miras|anda|que mirás bobo/
 handler.command = new RegExp
 export default handler
