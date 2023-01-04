@@ -86,7 +86,6 @@ let menuB = `
 ∘ _Buenos dias_
 ∘ _Que mirás bobo_
 ∘ _No se inunda más_
-
 ∘ _Viernes_
 ∘ _Mierda de Bot_
 ∘ _Me olvidé_
@@ -98,17 +97,13 @@ let menuB = `
 ∘ _Ara ara_
 ∘ _Hola_
 ∘ _Un pato_
-
 ∘ _Te amo_
-
 ∘ _Te diagnostico con gay_
-
 ∘ _Bañate_
 ∘ _Vivan los novios_
 ∘ _Marica quien_
 ∘ _Es puto_
 ∘ _La biblia_
-
 ∘ _Bot puto_
 ∘ _Feliz cumpleaños_
 ∘ _Pasa pack Bot_
@@ -117,13 +112,11 @@ let menuB = `
 ∘ _Oh me vengo_
 ∘ _Murio el grupo_
 ∘ _Siuuu_
-
 ∘ _a_
 ∘ _Hey_
 ∘ _Enojado_
 ∘ _Enojada_
 ∘ _Chao_
-
 ∘ _Triste_
 ∘ _Estoy triste_
 ∘ _Me pican los cocos_
@@ -143,7 +136,6 @@ let menuB = `
 ∘ _Fino señores_
 ∘ _Verdad que te engañe_
 ∘ _Sus_
-
 ∘ _La voz de hombre_
 ∘ _Pero esto_
 ∘ _Bien pensado Woody_
@@ -152,7 +144,6 @@ let menuB = `
 ∘ _Una pregunta_
 ∘ _Que sucede_
 ∘ _Hablame_
-
 ∘ _Yokese_
 ∘ _Omaiga_
 ∘ _Nadie te preguntó_
@@ -218,24 +209,20 @@ rows: [
 {title: lenguajeGB['smsLista2'](), description: null, rowId: `${usedPrefix}creador`},
 {title: lenguajeGB['smsLista5'](), description: null, rowId: `${usedPrefix}infomenu`},
 {title: lenguajeGB['smsLista6'](), description: null, rowId: `${usedPrefix}allmenu`},  
-  
+
 {title: "➥🎶 Noche de paz", description: null, rowId: `Noche de paz`},
 {title: "➥🎶 Buenos dias", description: null, rowId: `Buenos dias`},
 {title: "➥🎶 Que mirás bobo", description: null, rowId: `Que mirás bobo`},
 {title: "➥🎶 No se inunda más", description: null, rowId: `No se inunda más`},
-
 {title: "➥🎶 Viernes", description: null, rowId: `Viernes`},
 {title: "➥🎶 Me olvidé", description: null, rowId: `Me olvidé`},
 {title: "➥🎶 Baneado", description: null, rowId: `Baneado`},
 {title: "➥🎶 Feliz navidad", description: null, rowId: `Feliz navidad`},
 {title: "➥🎶 A nadie le importa", description: null, rowId: `A nadie le importa`},
-
 {title: "➥🎶 Vete a la vrg", description: null, rowId: `Vete a la vrg`},
-
 {title: "➥🎶 Mierda de Bot", description: null, rowId: `Mierda de Bot`},
 {title: "➥🎶 Hola", description: null, rowId: `Hola`},
 {title: "➥🎶 Un pato", description: null, rowId: `Un pato`},
-
 {title: "➥🎶 Te amo", description: null, rowId: `Te amo`},
 {title: "➥🎶 Yamete", description: null, rowId: `Yamete`},
 {title: "➥🎶 Te diagnostico con gay", description: null, rowId: `Te diagnostico con gay`},
@@ -254,13 +241,11 @@ rows: [
 {title: "➥🎶 Oh me vengo", description: null, rowId: `Oh me vengo`},
 {title: "➥🎶 Murio el grupo", description: null, rowId: `Murio el grupo`},
 {title: "➥🎶 Siuuu", description: null, rowId: `Siuuu`},
-
 {title: "➥🎶 a", description: null, rowId: `a`},
 {title: "➥🎶 Hey", description: null, rowId: `Hey`},
 {title: "➥🎶 Enojado", description: null, rowId: `Enojado`},
 {title: "➥🎶 Enojada", description: null, rowId: `Enojada`},
 {title: "➥🎶 Chao", description: null, rowId: `Chao`},
-
 {title: "➥🎶 Triste", description: null, rowId: `Triste`},
 {title: "➥🎶 Estoy triste", description: null, rowId: `Estoy triste`},
 {title: "➥🎶 Me pican los cocos", description: null, rowId: `Me pican los cocos`},
@@ -288,7 +273,6 @@ rows: [
 {title: "➥🎶 Una pregunta", description: null, rowId: `Una pregunta`},
 {title: "➥🎶 Que sucede", description: null, rowId: `Que sucede`},
 {title: "➥🎶 Hablame", description: null, rowId: `Hablame`},
-
 {title: "➥🎶 Niconico", description: null, rowId: `Niconico`},
 {title: "➥🎶 Yokese", description: null, rowId: `Yokese`},
 {title: "➥🎶 Omaiga", description: null, rowId: `Omaiga`},
@@ -312,45 +296,36 @@ rows: [
 {title: "➥🎶 Momento equisde", description: null, rowId: `Momento equisde`},
 {title: "➥🎶 Momento XD", description: null, rowId: `Momento XD`},
 {title: "➥🎶 Todo bien", description: null, rowId: `Todo bien`},
-
 {title: "➥🎶 Te gusta el Pepino", description: null, rowId: `Te gusta el Pepino`},
-
 {title: "➥🎶 El tóxico", description: null, rowId: `El tóxico`},
 {title: "➥🎶 Moshi moshi", description: null, rowId: `Moshi moshi`},
 {title: "➥🎶 Calla Fan de BTS", description: null, rowId: `Calla Fan de BTS`},
 {title: "➥🎶 Que tal grupo", description: null, rowId: `Que tal grupo`},
 {title: "➥🎶 Muchachos", description: null, rowId: `Muchachos`},
 {title: "➥🎶 Está Zzzz", description: null, rowId: `Está Zzzz`},
-
 {title: "➥🎶 Goku Pervertido", description: null, rowId: `Goku Pervertido`},
 {title: "➥🎶 Potaxio", description: null, rowId: `Potaxio`},
-
 {title: "➥🎶 Nico nico", description: null, rowId: `Nico nico`},
 {title: "➥🎶 El rap de Fernanfloo", description: null, rowId: `El rap de Fernanfloo`},
 {title: "➥🎶 Tal vez", description: null, rowId: `Tal vez`},
 {title: "➥🎶 Corte corte", description: null, rowId: `Corte corte`},
 {title: "➥🎶 Buenas noches", description: null, rowId: `Buenas noches`},
-
 {title: "➥🎶 Eres Fuerte", description: null, rowId: `Eres Fuerte`},
 {title: "➥🎶 Bueno Master", description: null, rowId: `Bueno Master`},
-{
 {title: "➥🎶 No Rompas más", description: null, rowId: `No Rompas más`},  
 {title: "➥🎶 Traiganle una falda", description: null, rowId: `Traiganle una falda`},
 {title: "➥🎶 Se están riendo de mí", description: null, rowId: `Se están riendo de mí`},
 {title: "➥🎶 Su nivel de pendejo", description: null, rowId: `Su nivel de pendejo`},
 {title: "➥🎶 Bienvenido/a", description: null, rowId: `Bienvenido`},
-
 {title: "➥🎶 Elmo sabe donde vives", description: null, rowId: `Elmo sabe donde vives`},
 {title: "➥🎶 tunometecabrasaramambiche", description: null, rowId: `tunometecabrasaramambiche`},
 {title: "➥🎶 Y este quien es", description: null, rowId: `Y este quien es`},
 {title: "➥🎶 Motivación", description: null, rowId: `Motivación`},
 {title: "➥🎶 En caso de una investigación", description: null, rowId: `En caso de una investigación`},
 {title: "➥🎶 Buen día grupo", description: null, rowId: `Buen día grupo`},
-
 {title: "➥🎶 Oye", description: null, rowId: `Oye`},
 {title: "➥🎶 Ig de la minita", description: null, rowId: `Ig de la minita`},
 {title: "➥🎶 Gaspi frase", description: null, rowId: `Gaspi frase`},
-
 {title: "➥🎶 Las reglas del grupo", description: null, rowId: `Las reglas del grupo`},
 ]}, ]
 
