@@ -66,14 +66,14 @@ global.db.chain = chain(global.db.data)
 }
 loadDatabase()
 
-global.authFile = `GataBotSession`
+global.authFile = `LightningBotSession`
 const { state, saveState, saveCreds } = await useMultiFileAuthState(global.authFile)
 
 const connectionOptions = {
 printQRInTerminal: true,
 auth: state,
 logger: P({ level: 'silent'}),
-browser: ['GataBot-MD','Edge','1.0.0']
+browser: ['Lightning-Bot','Edge','1.0.0']
 }
 
 global.conn = makeWASocket(connectionOptions)
