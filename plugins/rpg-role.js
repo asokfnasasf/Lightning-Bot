@@ -1,14 +1,14 @@
 const roles = {
-    '*NOVATO(A) V* 🪤': 0,
-     '*NOVATO(A) IV* 🪤': 1,
-      '*NOVATO(A) III* 🪤': 2,
-       '*NOVATO(A) II* 🪤': 3,
-        '*NOVATO(A) I* 🪤': 4,
-    '*APRENDIS V* 🪚': 5,
-     '*APRENDIS IV* 🪚': 6,
-      '*APRENDIS III* 🪚': 7,
-       '*APRENDIS II* 🪚': 8,
-       '*APRENDIS I* 🪚': 9,
+    '*NOVATO(A) V* 💩': 0,
+     '*NOVATO(A) IV* 💩': 1,
+      '*NOVATO(A) III* 💩': 2,
+       '*NOVATO(A) II* 💩': 3,
+        '*NOVATO(A) I* 💩': 4,
+    '*APRENDIS V* 💠': 5,
+     '*APRENDIS IV* 💠': 6,
+      '*APRENDIS III* 💠': 7,
+       '*APRENDIS II* 💠': 8,
+       '*APRENDIS I* 💠': 9,
     '*EXPLORADOR(A) V* 🪓': 10,
      '*EXPLORADOR(A) IV* 🪓': 11,
       '*EXPLORADOR(A) III* 🪓': 12,
@@ -39,11 +39,11 @@ const roles = {
       '*DIAMANTE III* 💎': 37,
        '*DIAMANTE II* 💎': 38,
         '*DIAMANTE I* 💎': 39,
-    '*PRO EN GATABOT V* 😼': 40,
-     '*PRO EN GATABOT IV* 😼': 41,
-      '*PRO EN GATABOT III* 😼': 42,
-       '*PRO EN GATABOT II* 😼': 43,
-        '*PRO EN GATABOT I* 😼': 44,
+    '*PRO EN LIGHTNINGBOT V* ⚡': 40,
+     '*PRO EN LIGHTNINGBOT IV* ⚡': 41,
+      '*PRO EN LIGHTNINGBOT III* ⚡': 42,
+       '*PRO EN LIGHTNINGBOT II* ⚡': 43,
+        '*PRO EN LIGHTNINGBOT I* ⚡': 44,
     '*SUPER PRO V* 🎩': 45,
      '*SUPER PRO IV* 🎩': 46,
       '*SUPER PRO III* 🎩': 47,
@@ -94,12 +94,12 @@ export function before(m) {
 
 handler.before = function (m, text) {
     let user = global.db.data.users[m.sender]
-    let role = (user.level <= 3) ? '*NOVATO(A) III* 🪤'
-        : ((user.level >= 3) && (user.level <= 6)) ? '*NOVATO(A) II* 🪤'
-            : ((user.level >= 6) && (user.level <= 9)) ? '*NOVATO(A) I* 🪤'
-                : ((user.level >= 9) && (user.level <= 12)) ? '*APRENDIS III* 🪚'
-                    : ((user.level >= 12) && (user.level <= 15)) ? '*APRENDIS II* 🪚'
-                        : ((user.level >= 15) && (user.level <= 18)) ? '*APRENDIS I* 🪚'
+    let role = (user.level <= 3) ? '*NOVATO(A) III* 💩'
+        : ((user.level >= 3) && (user.level <= 6)) ? '*NOVATO(A) II* 💩'
+            : ((user.level >= 6) && (user.level <= 9)) ? '*NOVATO(A) I* 💩'
+                : ((user.level >= 9) && (user.level <= 12)) ? '*APRENDIS III* 💠'
+                    : ((user.level >= 12) && (user.level <= 15)) ? '*APRENDIS II* 💠'
+                        : ((user.level >= 15) && (user.level <= 18)) ? '*APRENDIS I* 💠'
                             : ((user.level >= 18) && (user.level <= 21)) ? '*EXPLORADOR(A) III* 🪓'
                                 : ((user.level >= 21) && (user.level <= 24)) ? '*EXPLORADOR(A) II* 🪓'
                                     : ((user.level >= 24) && (user.level <= 27)) ? '*EXPLORADOR(A) I* 🪓'
@@ -118,9 +118,9 @@ handler.before = function (m, text) {
                                                                                         : ((user.level >= 63) && (user.level <= 66)) ? '*DIAMANTE III* 💎'
                                                                                             : ((user.level >= 66) && (user.level <= 69)) ? '*DIAMANTE II* 💎'
                                                                                                 : ((user.level >= 69) && (user.level <= 71)) ? '*DIAMANTE I* 💎'
-                                                                                                    : ((user.level >= 71) && (user.level <= 74)) ? '*PRO EN GATABOT III* 😼'
-                                                                                                        : ((user.level >= 74) && (user.level <= 77)) ? '*PRO EN GATABOT II* 😼'
-                                                                                                            : ((user.level >= 77) && (user.level <= 80)) ? '*PRO EN GATABOT I* 😼'
+                                                                                                    : ((user.level >= 71) && (user.level <= 74)) ? '*PRO EN LIGHTNINGBO III* ⚡'
+                                                                                                        : ((user.level >= 74) && (user.level <= 77)) ? '*PRO EN LIGHTNINGBO II* ⚡'
+                                                                                                            : ((user.level >= 77) && (user.level <= 80)) ? '*PRO EN LIGHTNINGBOT I* ⚡'
                                                                                                                 : ((user.level >= 80) && (user.level <= 83)) ? '*SUPER PRO III* 🎩'
                                                                                                                     : ((user.level >= 83) && (user.level <= 86)) ? '*SUPER PRO II* 🎩'
                                                                                                                         : ((user.level >= 86) && (user.level <= 89)) ? '*SUPER PRO I* 🎩'
