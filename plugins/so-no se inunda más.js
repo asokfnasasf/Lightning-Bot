@@ -6,8 +6,8 @@ if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 global.db.data.users[m.sender].money += 100 
 global.db.data.users[m.sender].exp += 100
   
-let vn = './media/no se inunda mas.mp3'
-conn.sendFile(m.chat, vn, 'no se inunda mas.mp3', null, m, true, {
+let vn = './media/no se inunda más.mp3'
+conn.sendFile(m.chat, vn, 'no se inunda más.mp3', null, m, true, {
 type: 'audioMessage', 
 ptt: true 
 })
