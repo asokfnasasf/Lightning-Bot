@@ -87,19 +87,18 @@ let menuA = `${lenguajeGB['smsConfi2']()} *${username}*
 
 let menuB = `
 *╭━〔* ${username} *〕━⬣*
-*┆⚡ EXPERIENCIA ➟ ${exp}*
+*┆🔅 EXPERIENCIA ➟ ${exp}*
 *┆💎 DIAMANTES ➟ ${limit}*
-*┆🐈 GATACOINS ➟ ${money}*
+*┆⚡ LIGHTCOINS ➟ ${money}*
 *┆🪙 TOKENS ➟ ${joincount}*
 *╰*┅┅┅┅┅┅┅┅┅┅┅┅┅ *✧*
 ${readMore}
-*╭━〔 INFORMACIÓN DE GATABOT 〕⬣*
-┃💫➺ _${usedPrefix}cuentasgatabot | cuentasgb_
-┃💫➺ _${usedPrefix}gruposgb | grupos | groupgb_
-┃💫➺ _${usedPrefix}donar | donate_
+*╭━〔 INFORMACIÓN DE LIGHTNINGBOT 〕⬣*
+┃💫➺ _${usedPrefix}cuentaslightningbot | cuentaslb_
+┃💫➺ _${usedPrefix}gruposlb | grupos | grouplb_
 ┃💫➺ _${usedPrefix}listagrupos | grouplist_
-┃💫➺ _${usedPrefix}estado | heygata | status_
-┃💫➺ _${usedPrefix}infogata | infobot_
+┃💫➺ _${usedPrefix}estado | heylight | status_
+┃💫➺ _${usedPrefix}infolightning | infobot_
 ┃💫➺ _${usedPrefix}instalarbot | installbot_
 ┃💫➺ _${usedPrefix}creadora | owner_
 ┃💫➺ _${usedPrefix}velocidad | ping_
