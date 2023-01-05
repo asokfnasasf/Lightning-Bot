@@ -6,7 +6,6 @@ let json = await res.json()
 let tes = json.success.replace('simsimi', 'simsimi').replace('Simsimi', 'Simsimi').replace('sim simi', 'sim simi')
 //m.reply(`${tes}`) 
 conn.sendHydrated(m.chat, `${tes}`, `𝘼𝙄 | ${wm}`
-
 ], m)
 }
 handler.help = ['simsimi']
