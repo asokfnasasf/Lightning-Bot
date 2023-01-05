@@ -15,7 +15,7 @@ let str = `
 ✅ 𝙂𝙍𝙐𝙋𝙊 𝙊𝙁𝙄𝘾𝙄𝘼𝙇 ${gt}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ✨ *Informate de las Novedades!!!*
-🐈 *${nna}*\n
+⚡ *${nna}*\n
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 
 *Por favor, no ingresar con números de Bots, y mantener el respeto.*\n
