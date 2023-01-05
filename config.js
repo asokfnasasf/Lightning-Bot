@@ -125,7 +125,7 @@ global.gatadiosig = ig
 global.md = 'https://github.com/asokfnasasf/Lightning-Bot'
 global.gatabot = md
 
-global.nna = '' //
+global.nna = 'https://chat.whatsapp.com/Km33ErOqSis1ELpKaHA8u9' // Lightning-Bot ⚡
 global.nna2 = ''
 
 global.nn = '' //Grupo 1
