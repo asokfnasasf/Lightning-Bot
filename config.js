@@ -116,7 +116,7 @@ global.version = vs
 global.gt = '𝙇𝙞𝙜𝙝𝙩𝙣𝙞𝙣𝙜-𝘽𝙤𝙩 ⚡'
 global.gatabot = gt
 
-global.yt = 'NO TENGO'
+global.yt = ''
 global.youtube = yt
 
 global.ig = 'https://www.instagram.com/gabrielacosta_15'
@@ -142,7 +142,7 @@ global.nnnttt2 = '' //Grupo 6 COL
 
 global.nnnttt3 = '' //Grupo 7 COL
 
-global.paypal = 'NO TENGO, SOY HUMILDE'
+global.paypal = ''
 global.donar = paypal
 
 global.asistencia = 'Wa.me/48732087124' //Dudas? escríbeme...
