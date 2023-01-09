@@ -9,7 +9,6 @@ import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js'
 global.owner = [
   ['5493491456806', 'Creador', true],
   ['48732087124', '', true],
-
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 global.mods = [] 
