@@ -98,7 +98,7 @@ global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 //⊱ ━━━━━.⋅ Sticker WM ⋅.━━━━ ⊰
 
 global.packname = '𝙇𝙞𝙜𝙝𝙩𝙣𝙞𝙣𝙜-𝘽𝙤𝙩 ⚡'
-global.author = '𝙂𝙖𝙗𝙧𝙞𝙚𝙡 🔥'
+global.author = '𝙂𝙖𝙗𝙧𝙞𝙚𝙡 ⚝'
 
 //━━━━━━━━━━━━━━━━━━━━ 
 
@@ -174,7 +174,7 @@ global.exito = eg
 
 //⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
 
-global.wm = '𝙇𝙞𝙜𝙝𝙩𝙣𝙞𝙣𝙜-𝘽𝙤𝙩 : 𝙂𝙖𝙗𝙧𝙞𝙚𝙡 🔥'
+global.wm = '𝙇𝙞𝙜𝙝𝙩𝙣𝙞𝙣𝙜-𝘽𝙤𝙩 : 𝙂𝙖𝙗𝙧𝙞𝙚𝙡 ⚝'
 global.igfg = '𝙇𝙞𝙜𝙝𝙩𝙣𝙞𝙣𝙜-𝘽𝙤𝙩 ⚡'
 global.wait = '*⌛ _Cargando | Charging..._ ▬▭▭▭▭▭▭*'
 global.waitt = '*⌛ _Cargando | Charging..._ ▬▬▭▭▭*'
