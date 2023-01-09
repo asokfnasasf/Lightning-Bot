@@ -95,7 +95,7 @@ text: `╭───────────────────❀\n│ *${u
 ◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆
 ✰ *${lenguajeGB['smsBanUsers']()}*
 ➺ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length}
- ༺═──────────────═༻`, footer: `*${lenguajeGB['smsPareja']()} ➺ ${pareja ? `${name} 🎁 ${conn.getName(pareja)}` : `🔔 ${lenguajeGB['smsResultPareja']()}`}*`, //${name} ${ucapan()} //lenguajeGB['smsMenu']()
+◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆`, footer: `*${lenguajeGB['smsPareja']()} ➺ ${pareja ? `${name} 🎁 ${conn.getName(pareja)}` : `🔔 ${lenguajeGB['smsResultPareja']()}`}*`, //${name} ${ucapan()} //lenguajeGB['smsMenu']()
 title: null,
 buttonText: `🛷 ${lenguajeGB['smsListaMenu']()} 🛷`, 
 sections }
