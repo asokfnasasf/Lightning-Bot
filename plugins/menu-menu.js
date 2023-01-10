@@ -311,8 +311,7 @@ ${readMore}
 ┃ *Declarate con alguien*
 ┃ *para que sean Parejas!!*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃❤️ 
-_${usedPrefix}listaparejas | listship_
+┃❤️ _${usedPrefix}listaparejas | listship_
 ┃❤️➤ _${usedPrefix}mipareja | mylove_
 ┃❤️➤ _${usedPrefix}pareja | couple *@tag*_
 ┃❤️➤ _${usedPrefix}aceptar | accept *@tag*_
