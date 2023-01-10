@@ -73,10 +73,10 @@ if (command == 'multijuegos') {
             //let s = `Bienvenido al Multijuegos Aleeatorios`
 
  const templateButtonsReplyMessage = [
-{index: 1, urlButton: {displayText: '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', url: 'https://github.com/GataNina-Li/GataBot-MD'}},
-{index: 2, urlButton: {displayText: '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢', url: 'https://www.instagram.com/gata_dios/'}},
+{index: 1, urlButton: {displayText: '𝙇𝙞𝙜𝙝𝙩𝙣𝙞𝙣𝙜-𝘽𝙤𝙩', url: 'https://github.com/asokfnasasf/Lightning-Bot'}},
+{index: 2, urlButton: {displayText: '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢', url: 'https://www.instagram.com/gabrielacosta_15/'}},
 {index: 3, quickReplyButton: {displayText: '𝙄𝙣𝙞𝙘𝙞𝙖𝙧 | 𝙎𝙩𝙖𝙧𝙩 ✨', id: '.juegos'}},
-{index: 4, quickReplyButton: {displayText: '𝙈𝙚𝙣𝙪 𝙅𝙪𝙚𝙜𝙤𝙨 | 𝙂𝙖𝙢𝙚𝙨 𝙈𝙚𝙣𝙪 🎡', id: '#juegosmenu'}},
+{index: 4, quickReplyButton: {displayText: '𝙈𝙚𝙣𝙪 𝙅𝙪𝙚𝙜𝙤𝙨 | 𝙂𝙖𝙢𝙚𝙨 𝙈𝙚𝙣𝙪 👾', id: '#juegosmenu'}},
 {index: 5, quickReplyButton: {displayText: '𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', id: '#menu'}},
 ]
  
@@ -104,8 +104,8 @@ conn.sendMessage(m.chat, t, m)
               let ss = await `𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨`
 
  const templateButtonsReplyMessage = [
-{index: 1, urlButton: {displayText: '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', url: 'https://github.com/GataNina-Li/GataBot-MD'}},
-{index: 2, urlButton: {displayText: '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢', url: 'https://www.instagram.com/gata_dios/'}},
+{index: 1, urlButton: {displayText: '𝙇𝙞𝙜𝙝𝙩𝙣𝙞𝙣𝙜-𝘽𝙤𝙩', url: 'https://github.com/GataNina-Li/Gabrielacosta_15'}},
+{index: 2, urlButton: {displayText: '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢', url: 'https://www.instagram.com/gabrielacosta_15/'}},
 {index: 3, quickReplyButton: {displayText: `𝙅𝙪𝙜𝙖𝙧 ${emojis1}`, id: juegos}},
 {index: 4, quickReplyButton: {displayText: `𝙅𝙪𝙜𝙖𝙧 ${emojis2}`, id: juegos2}},
 {index: 5, quickReplyButton: {displayText: `𝙅𝙪𝙜𝙖𝙧 ${emojis3}`, id: juegos3}},
@@ -134,8 +134,8 @@ conn.sendMessage(m.chat, tt, m)
            let sss = await `𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨`
 
  const templateButtonsReplyMessage = [
-{index: 1, urlButton: {displayText: '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', url: 'https://github.com/GataNina-Li/GataBot-MD'}},
-{index: 2, urlButton: {displayText: '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢', url: 'https://www.instagram.com/gata_dios/'}},
+{index: 1, urlButton: {displayText: '𝙇𝙞𝙜𝙝𝙩𝙣𝙞𝙣𝙜-𝘽𝙤𝙩', url: 'https://github.com/asokfnasasf/Lightning-Bot'}},
+{index: 2, urlButton: {displayText: '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢', url: 'https://www.instagram.com/gabrielacosta_15/'}},
 {index: 3, quickReplyButton: {displayText: `𝙅𝙪𝙜𝙖𝙧 ${emojis1}`, id: juegos}},
 {index: 4, quickReplyButton: {displayText: `𝙅𝙪𝙜𝙖𝙧 ${emojis2}`, id: juegos2}},
 {index: 5, quickReplyButton: {displayText: `𝙅𝙪𝙜𝙖𝙧 ${emojis3}`, id: juegos3}},
@@ -194,7 +194,7 @@ conn.sendMessage(m.chat, tttt, m)
 {index: 2, urlButton: {displayText: null, url: null}},
 {index: 3, quickReplyButton: {displayText: `𝙅𝙪𝙜𝙖𝙧 ${emojis1}`, id: juegos2}},
 {index: 4, quickReplyButton: {displayText: `𝙅𝙪𝙜𝙖𝙧 ${emojis2}`, id: juegos3}},
-{index: 5, quickReplyButton: {displayText: '🎁 𝙈𝙖𝙨 𝙅𝙪𝙚𝙜𝙤𝙨 | 𝙍𝙚𝙨𝙩𝙖𝙧𝙩', id: '#juegos'}},
+{index: 5, quickReplyButton: {displayText: ' 𝙈𝙖𝙨 𝙅𝙪𝙚𝙜𝙤𝙨 | 𝙍𝙚𝙨𝙩𝙖𝙧𝙩', id: '#juegos'}},
 ]
 let tttt = {
 text: ssss,
