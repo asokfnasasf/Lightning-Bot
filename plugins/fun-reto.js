@@ -1,6 +1,6 @@
 let handler  = async (m, { conn, usedPrefix, command }) => {
 //conn.reply(m.chat,`*┌────「 RETO 」─*\n*“${pickRandom(global.bucin)}”*\n*└────「 Mystic 」─*`, m)
-conn.sendHydrated(m.chat, `╭━━━━━[ 𝙍𝙀𝙏𝙊 😏 ]━━━━⬣\n*“${pickRandom(global.bucin)}”*\n╰━━━━━━[ ${vs} ]━━━━━⬣`, wm, null, md, '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
+conn.sendHydrated(m.chat, `╭━━━━━[ 𝙍𝙀𝙏𝙊 😏 ]━━━━⬣\n*“${pickRandom(global.bucin)}”*\n╰━━━━━━[ ${vs} ]━━━━━⬣`, wm, null, md, '𝙇𝙞𝙜𝙝𝙩𝙣𝙞𝙣𝙜-𝘽𝙤𝙩', null, null, [
 ['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 | 𝘼𝙜𝙖𝙞𝙣 🧐', `${usedPrefix}reto`],
 ['𝙏𝙤𝙥𝙨 | 𝙍𝙖𝙣𝙠𝙞𝙣𝙜 🏆', `${usedPrefix}top`],
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', `${usedPrefix}menu`]
@@ -29,8 +29,8 @@ global.bucin = [
  "Mándame una fotografía en ropa interior",
 "Escribe en tu estado de WhatsApp que te gusta comer tierra",
 "Debes de poner la fotografía de un participante del grupo que sea del sexo opuesto al tuyo en tu perfil de WhatsApp durante 3 días 📸📸",
-"Tienes que mandar un audio cantando la canción: Un pato que va cantando alegremente cua cua 🦆",
-"Envía un mensaje a tu ex y dile todavía me gustas", "Envía un audio diciendo amo a The Shadow Brokers - Bot", 
+
+"Envía un mensaje a tu ex y dile todavía me gustas",
 "Dile a tu crush que la amas y pasa captura al grupo", "Envía un audio cantando", 
 "Envía una foto en la que salgas tu sin taparte la cara ni nada", "Envía un video bailando", 
 "Invita a personas que no conoces a tomarse una selfi contigo y luego envíalo al grupo", 
