@@ -9,7 +9,7 @@ import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js'
 global.owner = [
   ['5493491456806', 'Creador ⚡', true],
   ['48732087124', 'asistencia 🤓', true]]
-//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
 
 global.mods = [] 
 global.prems = ['5493491456806'], 
@@ -109,16 +109,16 @@ global.vs = '1.5.1 ⚡'
 global.version = vs
 
 global.gt = '𝙇𝙞𝙜𝙝𝙩𝙣𝙞𝙣𝙜-𝘽𝙤𝙩 ⚡'
-global.gatabot = gt
+global.lightningbot = lb
 
 global.yt = ''
 global.youtube = yt
 
 global.ig = 'https://www.instagram.com/gabrielacosta_15'
-global.gatadiosig = ig
+global.gabrielig = ig
 
 global.md = 'https://github.com/asokfnasasf/Lightning-Bot'
-global.gatabot = md
+global.lightningbot = md
 
 global.nna = 'https://chat.whatsapp.com/Km33ErOqSis1ELpKaHA8u9' // Lightning-Bot ⚡
 global.nna2 = ''
