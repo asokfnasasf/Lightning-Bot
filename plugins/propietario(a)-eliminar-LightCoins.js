@@ -9,19 +9,19 @@ let txt = text.replace('@' + who.split`@`[0], '').trim()
 if (!txt) throw `${ag}𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙇𝘼 𝘾𝘼𝙉𝙏𝙄𝘿𝘼𝘿 𝘿𝙀 𝗟𝗜𝗚𝗛𝗧𝗖𝗢𝗜𝗡𝗦\n\n𝙀𝙉𝙏𝙀𝙍 𝙏𝙃𝙀 𝙉𝙐𝙈𝘽𝙀𝙍 𝙊𝙁 𝘿𝙄𝘼𝙈𝙊𝙉𝘿𝙎`
 if (isNaN(txt)) throw `${mg}𝙎𝙄𝙉 𝙎𝙄𝙈𝘽𝙊𝙇𝙊𝙎, 𝙎𝙊𝙇𝙊 𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙉𝙐𝙈𝙀𝙍𝙊𝙎\n\n𝙉𝙊 𝙎𝙔𝙈𝘽𝙊𝙇𝙎, 𝙅𝙐𝙎𝙏 𝙀𝙉𝙏𝙀𝙍 𝙉𝙐𝙈𝘽𝙀𝙍𝙎`
 let gatacoins = parseInt(txt)
-let money = gatacoins
-let pjk = Math.ceil(gatacoins * pajak)
+let money = lightcoins
+let pjk = Math.ceil(lightcoins * pajak)
 money -= pjk
 if (money < 1) throw `${mg}𝙀𝙇 𝙉𝙐𝙈𝙀𝙍𝙊 𝙈𝙄𝙉𝙄𝙈𝙊 𝘿𝙀 𝗟𝗜𝗚𝗛𝗧𝗖𝗢𝗜𝗡𝗦 𝙀𝙎 *1*\n\n𝙏𝙃𝙀 𝙈𝙄𝙉𝙄𝙈𝙐𝙈 𝙉𝙐𝙈𝘽𝙀𝙍 𝙁𝙍𝙊𝙈 𝙂𝘼𝙏𝘼𝘾𝙊𝙄𝙉𝙎 𝙄𝙎 *1*`
 let users = global.db.data.users
-users[who].money -= gatacoins
+users[who].money -= lightcoins
 
-conn.sendHydrated(m.chat, `╭━━━[ 𝐋𝐈𝐆𝐇𝐓𝐂𝐎𝐈𝐍𝐒 ⚡ ]━━━⬣\n┃\n┃ღ *PARA | FOR:*\n┃ღ *${text}*\n┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n┃ღ *SE ELIMINÓ | WAS REMOVED*\n┃ღ *${gatacoins} LightCoin(s)* ⚡\n┃\n╰━━━━━━━━━━━━━━⬣`, wm, null, md, '𝙇𝙞𝙜𝙝𝙩𝙣𝙞𝙣𝙜-𝘽𝙤𝙩', null, null, [
-['💗 𝙈𝙚𝙣𝙪 𝘼𝙫𝙚𝙣𝙩𝙪𝙧𝙖 | 𝙍𝙋𝙂 💗', '.rpgmenu'],
+conn.sendHydrated(m.chat, `╭━━━[ 𝗟𝗜𝗚𝗛𝗧𝗖𝗢𝗜𝗡𝗦 ⚡ ]━━━⬣\n┃\n┃ღ *PARA | FOR:*\n┃ღ *${text}*\n┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n┃ღ *SE ELIMINÓ | WAS REMOVED*\n┃ღ *${lightcoins} LightCoin(s)* ⚡\n┃\n╰━━━━━━━━━━━━━━⬣`, wm, null, md, '𝙇𝙞𝙜𝙝𝙩𝙣𝙞𝙣𝙜-𝘽𝙤𝙩', null, null, [
+[' 𝙈𝙚𝙣𝙪 𝘼𝙫𝙚𝙣𝙩𝙪𝙧𝙖 | 𝙍𝙋𝙂 ', '.rpgmenu'],
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']], m)
 }
 handler.help = ['addgb <@user>']
-handler.tags = ['gatacoins']
+handler.tags = ['lightcoins']
 handler.command = ['eliminarlightcoins', 'eliminarlight', 'eliminarcoins', 'quitarlightcoins', 'quitarlight', 'quitarcoins', 'dellghtcoins', 'dellight', 'delcoins'] 
 handler.group = true
 handler.rowner = true
