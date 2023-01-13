@@ -109,7 +109,7 @@ global.vs = '1.5.1 ⚡'
 global.version = vs
 
 global.gt = '𝙇𝙞𝙜𝙝𝙩𝙣𝙞𝙣𝙜-𝘽𝙤𝙩 ⚡'
-global.lightningbot = lb
+global.lightningbot = gt
 
 global.yt = ''
 global.youtube = yt
