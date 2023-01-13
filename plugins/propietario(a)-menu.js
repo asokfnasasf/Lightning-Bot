@@ -101,7 +101,7 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ∘ _${usedPrefix}dellightcoins *@tag*_
 ∘ _${usedPrefix}deldiamantes *@tag*_
 ∘ _${usedPrefix}reiniciar | restart_
-∘ _${usedPrefix}ctualizar | update_
+∘ _${usedPrefix}actualizar | update_
 ∘ _${usedPrefix}addprem | +prem *@tag*_
 ∘ _${usedPrefix}delprem | -prem *@tag*_
 ∘ _${usedPrefix}listapremium | listprem_
