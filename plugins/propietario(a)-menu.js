@@ -84,7 +84,7 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ∘ _${usedPrefix}unete *enlace*_
 ∘ _${usedPrefix}dardiamantes *cantidad*_
 ∘ _${usedPrefix}darxp *cantidad*_
-∘ _${usedPrefix}dargatacoins *cantidad*_
+∘ _${usedPrefix}darlightcoins *cantidad*_
 ∘ _${usedPrefix}addprem | userpremium *@tag* *cantidad*_
 ∘ _${usedPrefix}addprem2 | userpremium2 *@tag* *cantidad*_
 ∘ _${usedPrefix}addprem3 | userpremium3 *@tag* *cantidad*_
@@ -98,7 +98,7 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ∘ _${usedPrefix}comunicargrupos *texto*_
 ∘ _${usedPrefix}borrartmp | cleartmp_
 ∘ _${usedPrefix}delexp *@tag*_
-∘ _${usedPrefix}delgatacoins *@tag*_
+∘ _${usedPrefix}dellightcoins *@tag*_
 ∘ _${usedPrefix}deldiamantes *@tag*_
 ∘ _${usedPrefix}reiniciar | restart_
 ∘ _${usedPrefix}ctualizar | update_
@@ -107,7 +107,7 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ∘ _${usedPrefix}listapremium | listprem_
 ∘ _${usedPrefix}añadirdiamantes *@tag cantidad*_
 ∘ _${usedPrefix}añadirxp *@tag cantidad*_
-∘ _${usedPrefix}añadirgatacoins *@tag cantidad*_
+∘ _${usedPrefix}añadirlightcoins *@tag cantidad*_
 `.trim()
 await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
 
